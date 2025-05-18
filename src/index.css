@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a.property-button {
+    background-color: #17a34a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    text-align: center;
+  }
+  
+  a.property-button.disabled {
+    background-color: rgb(14, 19, 14) !important;
+    color: white;
+    cursor: not-allowed;
+  }
+
+  .property-pic img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  body [data-simplebar] {
+    background-color:  rgb(14, 19, 14) !important;
+  }
