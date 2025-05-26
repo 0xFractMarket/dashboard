@@ -9,30 +9,6 @@ A modern and elegant dashboard for real estate property management, built with R
 - 🏗️ OnlyDust: [FractMarket Project](https://app.onlydust.com/projects/fractmarket)
 - 💬 Telegram for devs [FractMarket Devs](https://t.me/+phFVWzH5xp05OWFh)
 
-## 🚀 Features
-
-- **Property Management**
-  - Explore available properties
-  - Manage favorite properties
-  - Add new properties
-  - View complete property details
-
-- **Personal AI Assistant**
-  - Integrated AI chat for real estate advice
-  - Smart responses to property queries
-  - Personalized recommendations
-
-- **User Management**
-  - Customizable user profile
-  - Preference settings
-  - Secure authentication system
-
-- **Modern Interface**
-  - Responsive design
-  - Dark theme by default
-  - Intuitive navigation
-  - Reusable components
-
 ## 📦 Installation
 
 ### Prerequisites
