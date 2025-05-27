@@ -17,16 +17,6 @@ export default function Faqs(){
                 <div className="md:flex justify-between items-center">
                     <div>
                         <h5 className="text-lg font-semibold">Frequently Asked Questions</h5>
-
-                        <ul className="tracking-[0.5px] inline-block mt-2">
-                            <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><Link to="/">FractMarket</Link></li>
-                            <li className="inline-block text-base text-slate-950 dark:text-white/70 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
-                            <li className="inline-block capitalize text-[16px] font-medium text-green-600 dark:text-white" aria-current="page">FAQs</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <Link to="#" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-slate-800/5 hover:bg-slate-800/10 dark:bg-slate-700 border border-slate-100/5 dark:border-gray-700 text-slate-900 dark:text-white rounded-full" onClick={() =>setShow(true)}><FiPlus className="size-4"/></Link>
                     </div>
 
                     <div className={`${show ? '' : 'hidden'} fixed z-50  flex items-center justify-center overflow-hidden m-auto bg-gray-900 bg-opacity-50 dark:bg-opacity-80 inset-0`}>

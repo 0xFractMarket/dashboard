@@ -3417,7 +3417,7 @@ body .dark\:bg-slate-800:is(.dark *){
 }
 
 body .dark\:bg-slate-900:is(.dark *){
-  background-color: #354c30 !important;
+  background-color: rgb(14 19 14 / 0.9) !important
 }
 
 body .dark\:bg-slate-900:is(.dark *)::placeholder {

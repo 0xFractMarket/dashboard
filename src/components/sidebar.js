@@ -62,13 +62,13 @@ export default function Sidebar() {
               </div>
             </li> */}
 
-            <li className="relative lg:m-8 m-6 px-8 py-10 rounded-lg bg-gradient-to-b to-transparent from-slate-800 text-center">
+            <li className="relative lg:m-8 m-6 px-6 py-8 rounded-lg bg-gradient-to-b to-transparent from-slate-800 text-center">
               <span className="relative z-10">
-                <span className="text-xl font-medium h5 text-white">Upgrade to Pro</span>
+                <span className="text-xl font-medium h5 text-white">Warning!</span>
 
-                <span className="text-slate-400 mt-3 mb-5 block">Get one month free and subscribe to pro</span>
+                <span className="text-slate-400 mt-3 mb-5 block">FractMarket is being development, This site does ont contain real data</span>
 
-                <Link to="https://1.envato.market/hously-react" target="_blank" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-gray-500/5 hover:bg-gray-500 border-gray-500/10 hover:border-gray-500 text-white rounded-md">Subscribe</Link>
+                <Link to="https://1.envato.market/hously-react" target="_blank" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-gray-500/5 hover:bg-gray-500 border-gray-500/10 hover:border-gray-500 text-white rounded-md">Join the wailist!</Link>
               </span>
 
               <span className="mdi mdi-home-city-outline text-[160px] absolute top-1/2 -translate-y-1/2 start-0 end-0 mx-auto text-center opacity-[0.02] text-white z-0"></span>
