@@ -35,24 +35,13 @@ function App() {
 
   return (
     <>
-    {loction.pathname === '/login' || loction.pathname === '/signup' || loction.pathname === '/signup-success' || loction.pathname === '/reset-password' || loction.pathname === '/error' || loction.pathname === '/thankyou'  ? 
-        <Routes>
-          <Route path='/login' element={<Login/>}/>
-          <Route path='/signup' element={<Signup/>}/>
-          <Route path='/signup-success' element={<SignupSuccess/>}/>
-          <Route path='/reset-password' element={<ResetPassword/>}/>
-          <Route path='/error' element={<Error/>}/>
-          <Route path='*' element={<Error/>}/>
-          <Route path='/thankyou' element={<ThankYou/>}/>
-        </Routes> : 
-
       <div className={`${toggle ? '' : 'toggled' } page-wrapper dark`}>
           <Sidebar/>
           <main className="page-content bg-gray-50 dark:bg-slate-800">
               <TopHeader toggle={toggle} setToggle={setToggle} />
               <Routes>
-                <Route path='/' element={<Index/>}/>
-                <Route path='/explore-property' element={<ExploreProperty/>}/>
+                <Route path='/' element={<ExploreProperty/>}/>
+                <Route path='/dashboard' element={<Index/>}/>
                 <Route path='/property-detail' element={<PropertyDetail/>}/>
                 <Route path='/property-detail/:id' element={<PropertyDetail/>}/>
                 <Route path='/favorite-property' element={<FavoriteProperty/>}/>
@@ -68,7 +57,6 @@ function App() {
               </Routes>
           </main>
       </div>
-    }
     </>
   );
 }
