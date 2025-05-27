@@ -17,51 +17,48 @@ export default function FavoriteProperty(){
                     </ul>
                 </div>
 
-                <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 mt-6">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-6">
                     {propertiesData.map((item,index) =>{
                         return(
-                            <div className="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-xl dark:hover:shadow-xl dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500 w-full mx-auto" key={index}>
-                                <div className="md:flex">
-                                    <div className="relative md:shrink-0">
-                                        <img className="h-full w-full object-cover md:w-48" src={item.image} alt=""/>
-                                        <div className="absolute top-4 end-4">
-                                            <Link to="#" className="btn btn-icon bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 rounded-full text-slate-100 dark:text-slate-700 focus:text-red-600 dark:focus:text-red-600 hover:text-red-600 dark:hover:text-red-600"><i className="mdi mdi-heart text-[20px]"></i></Link>
-                                        </div>
-                                    </div>
-                                    <div className="p-6 w-full">
-                                        <div className="">
-                                            <Link to={`/property-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
-                                        </div>
-                                       
-                                        <ul className="md:pt-4 pt-6 flex justify-between items-center list-none">
-                                            <li>
-                                                <span className="text-slate-400">Property Price</span>
-                                                <p className="text-lg font-medium">${item.price}</p>
-                                            </li>
+                            <div className="group rounded-xl bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500" key={index}>
+                                <div className="relative property-pic">
+                                    <img src={item.image} alt="" />
 
-                                            <li>
-                                                <span className="text-slate-400">Token Price</span>
-                                                <p className="text-lg font-medium">$100</p>
-                                            </li>
-            
-                                            <li>
-                                                <span className="text-slate-400">Rating</span>
-                                                <ul className="text-lg font-medium text-amber-400 list-none">
-                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline ms-1 text-black dark:text-white">{item.rating}(30)</li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                        <div className="">
-                                            <Link to={`/property-detail/${item.id}`} className={`property-button mt-4 w-full ${!item.enabled ? 'disabled' : ''}`}>
-                                                {item.enabled ? 'View Property' : 'Coming soon'}
-                                            </Link>
-                                        </div>
+                                    <div className="absolute top-4 end-4">
+                                        <Link to="#" className="btn btn-icon bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 rounded-full text-slate-100 dark:text-slate-700 focus:text-red-600 dark:focus:text-red-600 hover:text-red-600 dark:hover:text-red-600"><i className="mdi mdi-heart text-[20px]"></i></Link>
                                     </div>
+                                </div>
+
+                                <div className="p-6">
+                                    <Link to={`/property-detail/${item.id}`}>
+                                        <h3 className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</h3>
+                                    </Link>
+                                    <ul className="pt-2 flex justify-between items-center list-none">
+                                        <li>
+                                            <span className="text-slate-400">Property Price</span>
+                                            <p className="text-lg font-medium">${item.price}</p>
+                                        </li>
+
+                                        <li>
+                                            <span className="text-slate-400">Token Price</span>
+                                            <p className="text-lg font-medium">$100</p>
+                                        </li>
+
+                                        <li>
+                                            <span className="text-slate-400">Rating</span>
+                                            <ul className="text-lg font-medium text-amber-400 list-none">
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1 text-black dark:text-white">{item.rating}(30)</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <Link to={`/property-detail/${item.id}`} className={`property-button mt-4 w-full ${!item.enabled ? 'disabled' : ''}`}>
+                                        {item.enabled ? 'View Property' : 'Coming soon'}
+                                    </Link>
                                 </div>
                             </div>
                         )
