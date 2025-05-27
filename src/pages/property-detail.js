@@ -36,7 +36,7 @@ export default function PropertyDetail(){
                     <h5 className="text-lg font-semibold">Property Details</h5>
 
                     <ul className="tracking-[0.5px] inline-block sm:mt-0 mt-3">
-                        <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><Link to="/">Hously</Link></li>
+                        <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><Link to="/">FractMarket</Link></li>
                         <li className="inline-block text-base text-slate-950 dark:text-white/70 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                         <li className="inline-block capitalize text-[16px] font-medium text-green-600 dark:text-white" aria-current="page">Property Details</li>
                     </ul>
@@ -192,7 +192,7 @@ export default function PropertyDetail(){
                             <p className="text-slate-400 mt-4">{data?.developmentPotential.investmentOpportunities}</p>
 
                             <div className="w-full leading-[0] border-0 mt-6">
-                                <iframe src={GoogleMapsURLToEmbedURL(data?.googleMapsLink)} style={{border:"0"}} title="hously" className="w-full h-[500px]" allowFullScreen></iframe>
+                                <iframe src={GoogleMapsURLToEmbedURL(data?.googleMapsLink)} style={{border:"0"}} title="FractMarket" className="w-full h-[500px]" allowFullScreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -210,7 +210,7 @@ export default function PropertyDetail(){
 
                                 <ul className="list-none mt-4">
                                     <li className="flex justify-between items-center">
-                                        <span className="text-slate-400 text-sm">Days on Hously</span>
+                                        <span className="text-slate-400 text-sm">Days on FractMarket</span>
                                         <span className="font-medium text-sm">124 Days</span>
                                     </li>
 

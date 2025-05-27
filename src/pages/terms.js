@@ -14,7 +14,7 @@ export default function Terms(){
                     <h5 className="text-lg font-semibold">Terms & Conditions</h5>
 
                     <ul className="tracking-[0.5px] inline-block sm:mt-0 mt-3">
-                        <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><Link to="index">Hously</Link></li>
+                        <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><Link to="index">FractMarket</Link></li>
                         <li className="inline-block text-base text-slate-950 dark:text-white/70 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                         <li className="inline-block capitalize text-[16px] font-medium text-green-600 dark:text-white" aria-current="page">Terms</li>
                     </ul>

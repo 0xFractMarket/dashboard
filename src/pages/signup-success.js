@@ -25,7 +25,7 @@ export default function SignupSuccess(){
                                 </div>
 
                                 <div className="text-center p-6 border-t border-gray-100 dark:border-gray-700">
-                                    <p className="mb-0 text-slate-400 font-medium">© {new Date().getFullYear()} Hously. Design with <i className="mdi mdi-heart text-red-600"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                    <p className="mb-0 text-slate-400 font-medium">© {new Date().getFullYear()} FractMarket.</p>
                                 </div>
                             </div>
                         </div>

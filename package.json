@@ -1,7 +1,7 @@
 {
   "name": "hously",
   "version": "2.3.0",
-  "description": "Hously - React Js Real Estate Template",
+  "description": "FractMarket - Fractional Real Estate",
   "private": true,
   "dependencies": {
     "@cartridge/connector": "^0.7.13",

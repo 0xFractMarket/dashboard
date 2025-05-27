@@ -17,7 +17,7 @@ export default function ThankYou(){
                             <FiThumbsUp className="size-10"/>
                         </div>
                         <h1 className="mt-6 mb-8 md:text-5xl text-3xl font-bold">Thank You</h1>
-                        <p className="text-slate-400 max-w-xl mx-auto">We are a huge marketplace dedicated to connecting great artists of all Hously with their fans and unique token collectors!</p>
+                        <p className="text-slate-400 max-w-xl mx-auto">We are a huge marketplace dedicated to connecting great artists of all FractMarket with their fans and unique token collectors!</p>
                         
                         <div className="mt-6">
                             <Link to="/" className="btn bg-green-600/5 hover:bg-green-600 border-green-600/10 hover:border-green-600 text-green-600 hover:text-white rounded-md">Back to Home</Link>

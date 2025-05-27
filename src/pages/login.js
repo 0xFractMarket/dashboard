@@ -54,7 +54,7 @@ export default function Login(){
                         </div>
 
                         <div className="px-6 py-2 bg-slate-50 dark:bg-slate-800 text-center">
-                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Hously. Designed by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} FractMarket.</p>
                         </div>
                     </div>
                 </div>
