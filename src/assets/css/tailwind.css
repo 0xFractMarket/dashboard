@@ -1449,7 +1449,7 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
 }
 .bg-gray-500\/5{
-  background-color: rgb(107 114 128 / 0.05) !important;
+  background-color: rgb(14 19 14 / 0.05) !important;
 }
 .bg-gray-900{
   --tw-bg-opacity: 1 !important;
@@ -3235,7 +3235,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 .hover\:bg-gray-500:hover{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(14 19 14 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-green-600:hover{

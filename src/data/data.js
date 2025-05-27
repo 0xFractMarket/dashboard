@@ -602,24 +602,140 @@ export const recentPost = [
     },
 ]
 
-export const accordianData = [
-    {
-        title:'How does it work ?',
-        desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
-    },
-    {
-        title:'Do I need a designer to use FractMarket ?',
-        desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
-    },
-    {
-        title:'What do I need to do to start selling ?',
-        desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
-    },
-    {
-        title:'What happens when I receive an order ?',
-        desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
-    },
-]
+export const accordianData = {
+    businessModel: [
+        {
+            title: 'What is FractMarket?',
+            desc: 'A platform that allows investing in tokenized real estate properties through blockchain, offering property fractions starting from $50.',
+        },
+        {
+            title: 'How is the property represented?',
+            desc: 'Each property is linked to a DAO LLC in Wyoming; the tokens represent legal participation in said entity.',
+        },
+        {
+            title: 'Which blockchain does FractMarket use?',
+            desc: 'Operates on Algorand, taking advantage of its low fees and high speed.',
+        },
+        {
+            title: 'What is a DAO LLC?',
+            desc: 'An LLC managed by smart contracts, where investors have voting rights proportional to their participation.',
+        },
+        {
+            title: 'Who manages the properties?',
+            desc: 'Investors vote on key decisions; daily management is delegated to professional administrators.',
+        }
+    ],
+    fees: [
+        {
+            title: 'What is the commission for buying tokens?',
+            desc: '3% for the buyer, included in the token price.',
+        },
+        {
+            title: 'And for selling tokens?',
+            desc: '3% for the seller, also included in the price.',
+        },
+        {
+            title: 'Is there a commission for listing properties?',
+            desc: 'Yes, a listing fee of 5% of the property value.',
+        },
+        {
+            title: 'What commissions apply for payment methods?',
+            desc: '2.9% + $0.30 for domestic cards; 3.9% + $0.30 for international cards.',
+        },
+        {
+            title: 'Are there commissions for selling tokens in the secondary market?',
+            desc: 'Yes, a 0.5% commission on the sale price.',
+        }
+    ],
+    properties: [
+        {
+            title: 'What types of properties does FractMarket offer?',
+            desc: 'Mainly residential, including single-family homes and short-term rental properties.',
+        },
+        {
+            title: 'Where are the properties located?',
+            desc: 'In 11 US states, geographically diversifying investments.',
+        },
+        {
+            title: 'What information is provided about each property?',
+            desc: 'Details such as inspection reports, lease contracts, occupancy rates, and return projections.',
+        },
+        {
+            title: 'How are properties selected?',
+            desc: 'They use artificial intelligence to identify properties with high profitability potential.',
+        },
+        {
+            title: 'Can you invest in specific properties?',
+            desc: 'Yes, investors choose which properties they want to invest in.',
+        }
+    ],
+    regulations: [
+        {
+            title: 'Is FractMarket regulated by the SEC?',
+            desc: 'No, but it operates under existing legal structures such as DAO LLCs.',
+        },
+        {
+            title: 'How is the legality of investments ensured?',
+            desc: 'Each property is structured as an LLC, and tokens represent participation in that entity.',
+        },
+        {
+            title: 'What security measures does FractMarket implement?',
+            desc: 'Uses AWS with TLS encryption, firewalls, and periodic penetration testing.',
+        },
+        {
+            title: 'Is identity verification (KYC) performed?',
+            desc: 'Yes, all investors must complete a KYC process.',
+        },
+        {
+            title: 'What security certifications does FractMarket have?',
+            desc: 'Has ISO 27001, ISO 27701 certifications, and SOC 2 reports.',
+        }
+    ],
+    technology: [
+        {
+            title: 'What blockchain technology does FractMarket use?',
+            desc: 'FractMarket operates on the Algorand blockchain, taking advantage of its low fees and high transaction speed.',
+        },
+        {
+            title: 'How are property tokens represented?',
+            desc: 'Each token is an Algorand Standard Asset (ASA) representing a fraction of ownership in a specific DAO LLC.',
+        },
+        {
+            title: 'Is cryptocurrency knowledge necessary to invest?',
+            desc: 'No, FractMarket abstracts blockchain complexity, allowing users to invest without prior cryptocurrency experience.',
+        },
+        {
+            title: 'How are acquired tokens stored?',
+            desc: 'FractMarket creates a digital wallet for each user, where acquired tokens are automatically stored.',
+        },
+        {
+            title: 'What security measures does FractMarket implement?',
+            desc: 'Uses TLS encryption, firewalls, and periodic penetration testing to protect user information and assets.',
+        }
+    ],
+    market: [
+        {
+            title: 'What is the size of the real estate tokenization market?',
+            desc: 'The global asset tokenization market is estimated to reach $16.1 trillion by 2030, with a significant portion in real estate.',
+        },
+        {
+            title: 'Who are FractMarket\'s main competitors?',
+            desc: 'RealT, Homebase, and MetaWealth are similar platforms offering fractional investments in tokenized real estate.',
+        },
+        {
+            title: 'What differentiates FractMarket from its competitors?',
+            desc: 'FractMarket allows anyone to list properties, offers instant liquidity without lock-up periods, and a decentralized governance structure.',
+        },
+        {
+            title: 'What types of properties are tokenized on FractMarket?',
+            desc: 'From single-family homes to commercial properties, including short and long-term rentals.',
+        },
+        {
+            title: 'How are properties selected for listing on the platform?',
+            desc: 'Properties are evaluated by a local team and through artificial intelligence to determine their viability and profitability.',
+        }
+    ]
+};
 
 export const pricingData = [
     {

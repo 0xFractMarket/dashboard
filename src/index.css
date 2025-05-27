@@ -30,3 +30,15 @@ a.property-button {
   body [data-simplebar] {
     background-color:  rgb(14, 19, 14) !important;
   }
+
+  .faq h5 {
+    color: #b9b98b !important;
+  }
+
+  .cta {
+    border-color:  #b9b98b !important;
+  }
+
+  .cta:hover {
+    background-color:  rgb(14, 19, 14) !important;
+  }

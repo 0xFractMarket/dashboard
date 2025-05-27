@@ -10,19 +10,10 @@ import PropertyDetail from './pages/property-detail';
 import FavoriteProperty from './pages/favorite-property';
 import AddProperty from './pages/add-property';
 import Chat from './pages/chat';
-import Profile from './pages/profile';
-import ProfileSetting from './pages/profile-setting';
 import Faqs from './pages/faqs';
-import Pricing from './pages/pricing';
 import Review from './pages/review';
 import Privacy from './pages/privacy';
 import Terms from './pages/terms';
-import Login from './pages/login';
-import Signup from './pages/signup';
-import SignupSuccess from './pages/signup-success';
-import ResetPassword from './pages/reset-password';
-import Error from './pages/error';
-import ThankYou from './pages/thankyou';
 
 function App() {
   let [toggle, setToggle] = useState(false)
@@ -47,10 +38,7 @@ function App() {
                 <Route path='/favorite-property' element={<FavoriteProperty/>}/>
                 <Route path='/add-property' element={<AddProperty/>}/>
                 <Route path='/chat' element={<Chat/>}/>
-                <Route path='/profile' element={<Profile/>}/>
-                <Route path='/profile-setting' element={<ProfileSetting/>}/>
                 <Route path='/faqs' element={<Faqs/>}/>
-                <Route path='/pricing' element={<Pricing/>}/>
                 <Route path='/review' element={<Review/>}/>
                 <Route path='/privacy' element={<Privacy/>}/>
                 <Route path='/terms' element={<Terms/>}/>

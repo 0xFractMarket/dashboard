@@ -68,7 +68,7 @@ export default function Sidebar() {
 
                 <span className="text-slate-400 mt-3 mb-5 block">FractMarket is being development, This site does ont contain real data</span>
 
-                <Link to="https://1.envato.market/hously-react" target="_blank" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-gray-500/5 hover:bg-gray-500 border-gray-500/10 hover:border-gray-500 text-white rounded-md">Join the wailist!</Link>
+                <Link to="https://1.envato.market/hously-react" target="_blank" className="cta py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center text-white rounded-md">Join the wailist!</Link>
               </span>
 
               <span className="mdi mdi-home-city-outline text-[160px] absolute top-1/2 -translate-y-1/2 start-0 end-0 mx-auto text-center opacity-[0.02] text-white z-0"></span>
